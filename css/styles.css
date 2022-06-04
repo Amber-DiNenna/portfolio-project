@@ -84,3 +84,14 @@ h1, h2 {
 .cool {
   font-family: cursive;
 }
+
+button {
+  background-color: whitesmoke;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+a {
+  color:darkgray;
+}
