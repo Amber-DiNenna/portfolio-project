@@ -1,26 +1,52 @@
-img {
-  height: 270px;
-  width: 270px;
-  border-radius: 150px;
+body {
+  background-color:darkgray;
 }
 
-.background img {
-  float: right;
+.bio {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.skills img {
-  float: left;
-}
-
-div {
-  height: 600px;
+.skills, .background, .intro, .greeting {
+  height: auto;
   width: 800px;
   box-sizing: border-box;
-  margin: auto;
-  border: 5px solid black;
+  margin: 10px auto;
+  border: 2px solid black;
   padding: 20px;
+  background-color:antiquewhite;
+}
+
+h1 {
+  font-size: 50px;
 }
 
 h1, h2 {
   text-align: center;
+}
+
+.sidebar {
+  float: right;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 2px;
+  height: 155px;
+  width: 300px;
+  background-color:bisque;
+}
+
+#big {
+  font-size: 35px;
+}
+
+img {
+  height: 270px;
+  width: 270px;
+  border-radius: 150px;
+  border: 2px solid black;
+  float: left;
+}
+
+.background img {
+  float: right;
 }
