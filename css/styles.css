@@ -25,6 +25,10 @@ h1, h2 {
   text-align: center;
 }
 
+.greeting {
+  font-size: xx-large;
+  display: flex;
+}
 .sidebar {
   float: right;
   border: 2px solid black;
@@ -35,18 +39,19 @@ h1, h2 {
   background-color:bisque;
 }
 
-#big {
-  font-size: 35px;
-}
-
 img {
   height: 270px;
   width: 270px;
   border-radius: 150px;
   border: 2px solid black;
   float: left;
+  margin: 10px;
 }
 
 .background img {
   float: right;
+}
+
+.greeting img {
+  justify-self: center;
 }
