@@ -11,7 +11,7 @@
 
 ## Description
 
-_Personal programming portfolio demonstration site showcasing HTML and CSS._
+_Personal programming portfolio demonstration site showcasing HTML and CSS at https://amber-dinenna.github.io/portfolio-project/._
 
 ## Setup/Installation Requirements
 
@@ -25,6 +25,8 @@ _Personal programming portfolio demonstration site showcasing HTML and CSS._
 * _Not sure why, but when I link to Bootstrap, it causes by sidebar text to come out of it's box._
 
 ## License
+
+_Please feel free to make contributions and contact me with any questions at amberdinenna@gmail.com._
 
 _MIT License
 
