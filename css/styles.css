@@ -1,5 +1,6 @@
 body {
   background-color:darkgray;
+  font-family:Arial, Helvetica, sans-serif
 }
 
 .bio {
@@ -7,28 +8,15 @@ body {
   flex-wrap: wrap;
 }
 
-.skills, .background, .intro, .greeting {
+.greeting, .intro, .background, .skills, .contact {
   height: auto;
   width: 800px;
   box-sizing: border-box;
   margin: 10px auto;
   border: 2px solid black;
   padding: 20px;
-  background-color:antiquewhite;
 }
 
-h1 {
-  font-size: 50px;
-}
-
-h1, h2 {
-  text-align: center;
-}
-
-.greeting {
-  font-size: xx-large;
-  display: flex;
-}
 .sidebar {
   float: right;
   border: 2px solid black;
@@ -39,6 +27,29 @@ h1, h2 {
   background-color:bisque;
 }
 
+.greeting {
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: cornsilk;
+}
+
+.background {
+  background-color:peachpuff;
+}
+
+.intro {
+  background-color: blanchedalmond;
+}
+
+.skills {
+  background-color:antiquewhite;
+}
+
+.contact {
+  background-color: beige;
+}
 img {
   height: 270px;
   width: 270px;
@@ -54,4 +65,15 @@ img {
 
 .greeting img {
   justify-self: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 25px;
+}
+h1, h2 {
+  text-align: center;
 }
