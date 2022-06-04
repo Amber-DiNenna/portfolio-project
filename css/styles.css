@@ -7,3 +7,13 @@ p img {
   width: 270px;
   float: right;
 }
+
+div {
+  height: 600px;
+  width: 800px;
+  box-sizing: border-box;
+  margin: auto;
+  border: 5px solid black;
+  padding: 20px;
+
+}
