@@ -23,6 +23,7 @@ _Personal programming portfolio demonstration site showcasing HTML and CSS at ht
 
 * _Would like to try to figure out how link email button to open inbox and populate a draft. Right now, the button is just for show._
 * _Not sure why, but when I link to Bootstrap, it causes by sidebar text to come out of it's box._
+* _Wondering how to adjust space between lines of text because the cursive span used altered the spacing of the paragraph its in._
 
 ## License
 
