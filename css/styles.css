@@ -1,11 +1,15 @@
-p img {
+img {
+  height: 270px;
+  width: 270px;
   border-radius: 150px;
 }
 
-#guys img {
-  height: 270px;
-  width: 270px;
+.background img {
   float: right;
+}
+
+.skills img {
+  float: left;
 }
 
 div {
@@ -15,5 +19,8 @@ div {
   margin: auto;
   border: 5px solid black;
   padding: 20px;
+}
 
+h1, h2 {
+  text-align: center;
 }
